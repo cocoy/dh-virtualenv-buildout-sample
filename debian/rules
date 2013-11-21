@@ -1,0 +1,11 @@
+#!/usr/bin/make -f
+export DH_VERBOSE=1
+
+%:
+	dh $@ --with python-virtualenv  
+override_dh_auto_clean:
+	dh_auto_clean
+	rm -rf build .*egg-info
+
+override_dh_virtualenv:
+	dh_virtualenv --buildout  --buildout-version 2.1.1

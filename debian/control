@@ -1,7 +1,7 @@
 Source: twistd-sample 
 Section: python
 Priority: extra
-Maintainer: Matt Maintainer <matt@example.com>
+Maintainer: Rodney Quillo <imcocoy@gmail.com>
 Build-Depends: debhelper (>= 9), python, dh-virtualenv
 Standards-Version: 3.9.5
 
